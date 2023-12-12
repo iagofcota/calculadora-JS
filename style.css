@@ -36,9 +36,9 @@ body{
 }
 
 .buttons button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* TRANSFORMA A DIV EM FLEXBOX*/
+    justify-content: center; /* ALINHAMENTO DOS ITENS eixo X*/
+    align-items: center;  /*ALINHAMENTO DOS ITENS eixo Y*/
     width: 100%;
     height: 70px;
     color: rgb(255, 255, 255);
