@@ -1,8 +1,8 @@
 const res = document.querySelector(".resultado");
 const buttons = document.querySelectorAll(".buttons button");
 
-let currentNumber = "";
-let primeironum = null;
+let currentNumber = ""; // NÚMERO ATUAL
+let primeironum = null; //PRIMEIRO NÚMERO
 let operador = null;
 let restart = false;
 
